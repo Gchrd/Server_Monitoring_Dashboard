@@ -1,8 +1,8 @@
-# Server Monitoring Dashboard 📊
+# Server Monitoring Dashboard
 
 A full-stack implementation of a Server Monitoring System using **Python**, **PostgreSQL**, **FastAPI**, and **Vue.js**.
 
-## 🚀 Concept & Architecture
+## Concept & Architecture
 
 This project simulates a real-world infrastructure monitoring system. It consists of three decoupled components:
 
@@ -22,7 +22,7 @@ This project simulates a real-world infrastructure monitoring system. It consist
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **System**: Python (`psutil`)
 -   **Database**: PostgreSQL
@@ -32,7 +32,7 @@ This project simulates a real-world infrastructure monitoring system. It consist
 
 ---
 
-## 📦 How to Run
+## How to Run
 
 ### 1. Database Setup
 Ensure PostgreSQL is running and create a database (e.g., `monitoring_db`).
@@ -63,5 +63,5 @@ Alternatively, run manually:
 
 ---
 
-## 📈 Scalability Note
+## Scalability Note
 To monitor **multiple servers**, you simply deploy the `agent/` folder to other machines and configure their `.env` to point to this central database. The dashboard will then receive data from all connected servers.
